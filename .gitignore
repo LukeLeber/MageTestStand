@@ -4,3 +4,4 @@ vendor
 composer.lock
 .modman/Aoe_Scheduler/
 .modman/ecomdev_phpunit/
+/nbproject/private/
