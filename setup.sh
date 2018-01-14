@@ -33,6 +33,7 @@ if [ -d "${WORKSPACE}/vendor" ] ; then
   cp -rf ${WORKSPACE}/vendor/* "${BUILDENV}/vendor/"
 fi
 ls -l ${BUILDENV}/htdocs
+cat {$BUILDENV}/htdocs/phpunit.xml.dist
 cd ${BUILDENV}/htdocs
 ${BUILDENV}/bin/phpunit --colors -d display_errors=1
 
